@@ -49,13 +49,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.6"
-  dualpop_core_app:
+  dualpop_commons_dependencies:
     dependency: "direct main"
     description:
       path: "."
       ref: main
-      resolved-ref: "63a34d05424b0248a0e0c82a12593b4c8312e206"
-      url: "https://github.com/dualpop-app/dualpop_core_app"
+      resolved-ref: "281f6a5854f30c14bfdc97daea444187d1eff4b9"
+      url: "https://github.com/dualpop-app/dualpop_commons_dependencies"
+    source: git
+    version: "0.0.1"
+  dualpop_core:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: ad297e307d6cef9be0c11e0cc10224b64ac3d57a
+      url: "https://github.com/dualpop-app/dualpop_core"
     source: git
     version: "0.0.1"
   fake_async:

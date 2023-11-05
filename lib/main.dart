@@ -1,7 +1,12 @@
-import 'package:dualpop_core_app/dualpop_core_app.dart';
+import 'package:dualpop_commons_dependencies/dualpop_commons_dependencies.dart';
+import 'package:dualpop_core/dualpop_core.dart';
 import 'package:flutter/material.dart';
 
-import 'app/app_modules.dart';
-import 'app/app_widget.dart';
-
-void main() => runApp(ModularApp(module: AppModule(), child: AppWidget()));
+void main() => runApp(
+      ModularApp(
+        module: AppModule(),
+        child: AppWidget(
+          // initialRoute: '/splash',
+        ),
+      ),
+    );
